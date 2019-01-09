@@ -1,0 +1,67 @@
+h3{
+    color: gray;
+    font-size: 35px;
+}
+
+section{
+    padding: 20px;
+    background-color: #F7F7F7;
+}
+
+form{
+    margin: auto;
+    width: 90%;
+}
+
+fieldset{
+    background-color: white;
+    color: #a9a9a9;
+    padding: 5px;
+    margin: 20px 10px;
+    border: 1.5px solid;;
+    font-size: 24px;
+}
+
+fieldset label{
+    vertical-align: middle;
+    line-height: 45px;
+    color: #696969;
+}
+
+select{
+    float:right;
+    width: 70%;
+    height: 35px;
+    margin: 5px 5px;
+    font-size: 25px;
+}
+
+input{
+    color: #a9a9a9;
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 24px;
+}
+
+textarea{
+    font-size: 24px;
+    color: #a9a9a9;
+    resize: none;
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+.submit{
+    background-color: #00bfff;
+    color: white;
+    padding: 20px 0px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.submit:hover{
+    background-color: #1e90ff;
+}

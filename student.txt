@@ -1,0 +1,3 @@
+student name : William Anthony Bruijntjes 
+student number : 631290
+student class : INF1SA

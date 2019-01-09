@@ -1,0 +1,104 @@
+@font-face {
+    font-family: berlinSansFont;
+    src: url(font/Berlin-Sans.ttf);
+}
+
+*{
+	font-family: Arial;
+	margin:0
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+	background-image: url(img/background.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	margin: auto;
+	max-width:960px;
+	
+}
+
+header{
+	background-image: url(img/companylogoBG.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 300px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 300px;
+}
+
+h1{
+    font-family: berlinSansFont;
+	font-size: 80px;
+	color: white;
+	text-shadow: 2px 0 0 #000000, 0 -2px 0 #000000, 0 2px 0 #000000, -2px 0 0 #000000;
+    transition: font-size 0.5s;
+}
+
+h1:hover{
+    font-size: 90px;
+}
+
+h2{
+    width: 500px;
+    margin: auto;
+}
+
+nav{
+	background-color: #808080;	
+	text-align: center;
+}
+
+ul{
+	color: #FFFFFF;
+	display: inline-block;
+	list-style-type: none;
+    padding: 0;
+	margin: auto;
+    overflow: hidden;
+	font-size: 30px;
+}
+
+li{
+	padding: 5px 30px 5px 30px;
+	display:block;
+	float:left;
+}
+
+li a {
+	color: #FFFFFF;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.5s
+}
+
+li a:hover {
+    color: #111;
+}
+
+article{
+	background-color: #2699fb ;
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	font-weight: normal;
+}
+
+footer{
+	padding: 10px;
+	text-align: center;
+	background-color: #000000;
+	color: #FFFFFF;
+}
